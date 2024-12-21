@@ -1,0 +1,5 @@
+- dim_date
+- dim_ship
+- dim_customer
+- dim_product
+- fact_transaction
