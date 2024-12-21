@@ -10,8 +10,9 @@ This project implements an automated data pipeline using Apache Airflow to extra
 - PostgreSQL 13+
 - Docker (optional)
 
-## Dataset Information [https://www.kaggle.com/datasets/vivek468/superstore-dataset-final]
-The Superstore dataset contains retail information with the following key features:
+## Dataset Information 
+[source](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)<br></br>
+The Superstore dataset  contains retail information with the following key features:
 - Sales and order information
 - Customer demographics
 - Product categories and sub-categories
