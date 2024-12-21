@@ -19,10 +19,25 @@ The Superstore dataset  contains retail information with the following key featu
 - Regional data
 - Profit and discount details
 
-### Data Schema
-The dataset includes the following main tables:
-1. orders
-2. customers
-3. products
-4. sales
+### ERD
 
+![ERD](https://github.com/fajri-yanti/Data-Pipeline-SuperStore/blob/main/SuperStoreERD.png)
+
+### Graph Airflow
+![Graph](https://github.com/fajri-yanti/Data-Pipeline-SuperStore/blob/main/graph.png)
+
+### List Tabele - YAML config
+![Config](https://github.com/fajri-yanti/Data-Pipeline-SuperStore/blob/main/list_table_yaml.png)
+
+### Output PostgreSQL
+- Table dim_customer<br></br>
+![dim_customer](https://github.com/fajri-yanti/Data-Pipeline-SuperStore/blob/main/pg_dim_customer.png) <br>
+
+- Table dim_product<br></br>
+![dim_product](https://github.com/fajri-yanti/Data-Pipeline-SuperStore/blob/main/pg_dim_product.png)
+
+- Table dim_customer<br></br>
+![dim_ship](https://github.com/fajri-yanti/Data-Pipeline-SuperStore/blob/main/pg_dim_ship.png)
+
+- Table fact_transaction<br></br>
+![fact_transaction](https://github.com/fajri-yanti/Data-Pipeline-SuperStore/blob/main/pg_fact_transaction.png)
